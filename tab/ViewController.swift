@@ -13,6 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.title = "첫번째"
+        
+        self.tabBarItem = UITabBarItem.init(title: "처음", image: UIImage(named: "image1.png" ), selectedImage: UIImage(named: "image2.png" ))
     }
 
     override func didReceiveMemoryWarning() {
